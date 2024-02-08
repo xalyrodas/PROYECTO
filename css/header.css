@@ -1,0 +1,43 @@
+header{
+    /* ancho del recuadro  */
+    width: 100%;
+    /* la altura del recuadro */
+    height: 60px;
+    /* borde de una paguina  */
+    border-bottom: 3px solid rgb(0, 0, 0);
+/* esta propiedad alinea los elementois en una direccion  */
+    display: flex;
+    /* esta etiqueta sirve para que todos tengan la misma separacion */
+    justify-content: space-between;
+    /* esta etiqueta sirve para alinear una separacion de arriba hacia abajo  */
+    align-items: center;
+    /* sirve para dejar espacion por medio de px  */
+    padding: 0px 60px;
+
+}
+
+.logo{
+width: 200px;
+height: 40px;
+font-size: 35px;
+
+}
+.menu{
+    width: 400px;
+    height: 45px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+   }
+
+.menu a{
+    background-color: blueviolet;
+    font-size: 20px;
+    color: white;
+    padding: 6px 20px ;
+    border-radius:5px;
+    text-decoration: none;
+    font-weight: 600;
+}   
+
